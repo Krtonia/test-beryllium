@@ -11,6 +11,8 @@ $(call inherit-product, vendor/voltage/config/common_full_phone.mk)
 
 # Unofficial-ify
 VOLTAGE_BUILD_TYPE := UNOFFICIAL
+TARGET_SUPPORTS_QUICK_TAP := true
+TARGET_FACE_UNLOCK_SUPPORTED := true
 
 # Bootanimation Resolution
 TARGET_BOOT_ANIMATION_RES := 1080
