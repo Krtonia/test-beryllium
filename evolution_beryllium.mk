@@ -6,11 +6,11 @@
 
 $(call inherit-product, device/xiaomi/beryllium/device.mk)
 
-# Inherit some common VoltageOS stuff.
-$(call inherit-product, vendor/voltage/config/common_full_phone.mk)
+# Inherit some common Evolution-X stuff.
+$(call inherit-product, vendor/evolution/config/common_full_phone.mk)
 
-# Unofficial-ify
-VOLTAGE_BUILD_TYPE := UNOFFICIAL
+# Evolution-X flags
+EVO_BUILD_TYPE := UNOFFICIAL
 TARGET_SUPPORTS_QUICK_TAP := true
 TARGET_FACE_UNLOCK_SUPPORTED := true
 
@@ -18,7 +18,7 @@ TARGET_FACE_UNLOCK_SUPPORTED := true
 TARGET_BOOT_ANIMATION_RES := 1080
 
 # Device identifier. This must come after all inclusions.
-PRODUCT_NAME := voltage_beryllium
+PRODUCT_NAME := evolution_beryllium
 PRODUCT_DEVICE := beryllium
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := POCO F1
