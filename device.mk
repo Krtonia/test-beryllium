@@ -48,10 +48,6 @@ PRODUCT_PACKAGES += \
 # Treble
 PRODUCT_USE_VNDK_OVERRIDE := true
 
-# Remove unwanted packages
-PRODUCT_PACKAGES += \
-    RemovePackages
-
 # Inherit from sdm845-common
 $(call inherit-product, device/xiaomi/sdm845-common/sdm845.mk)
 
