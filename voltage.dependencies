@@ -23,9 +23,4 @@
     "target_path": "hardware/xiaomi",
     "branch": "aroow-12.1"
   },
-  {
-    "remote": "gitlab",
-    "repository": "kdrag0n/proton-clang",
-    "target_path": "prebuilts/clang/host/linux-x86/clang-proton"
-  }
 ]
