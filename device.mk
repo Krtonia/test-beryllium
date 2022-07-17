@@ -48,6 +48,10 @@ PRODUCT_PACKAGES += \
 # Treble
 PRODUCT_USE_VNDK_OVERRIDE := true
 
+# Fingerprint
+PRODUCT_PACKAGES += \
+    android.hardware.biometrics.fingerprint@2.1-service.xiaomi_sdm845
+
 # Remove unwanted packages
 PRODUCT_PACKAGES += \
     RemovePackages
