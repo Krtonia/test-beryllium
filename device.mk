@@ -64,6 +64,10 @@ PRODUCT_COPY_FILES += \
 # Device fstab
 PRODUCT_PACKAGES += \
     fstab.qcom
+    
+# Fingerprint
+PRODUCT_PACKAGES += \
+    android.hardware.biometrics.fingerprint@2.1-service.xiaomi_sdm845
 
 # Device init scripts
 PRODUCT_PACKAGES += \
